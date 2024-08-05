@@ -1,0 +1,249 @@
+@media screen and (min-width:999px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width:998px) {
+    html {
+        font-size: 62.5%;
+    }
+    .home-txt{
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width:830px) {
+    html {
+        font-size: 55%;
+    }
+
+    .home-txt {
+        padding-top: 20rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+
+}
+
+@media screen and (max-width:645px) {
+    html {
+        font-size: 45%;
+    }
+
+    .home-txt {
+        padding-top: 23rem;
+        padding-left: 8rem;
+
+    }
+
+    .logo {
+        font-size: 3rem;
+    }
+
+    .navbar a {
+        margin: 0 1.5rem;
+    }
+
+    .home-img {
+        object-fit: contain;
+        height: 80%;
+    }
+
+    .about-img {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width:450px) {
+    html {
+        font-size: 40%;
+    }
+    .header{
+        position: relative;
+        opacity: 1;
+    }
+    .header .contact-btn{
+        display: none;
+    }
+    #bar-icon{
+        display: block;
+        font-size: 5rem;
+        opacity: 1;
+        transition: 1.3s;
+    }
+    .navbar{
+        position: absolute;
+        top: 70%;
+        display: block;
+        visibility:hidden;
+        width: 90%;
+        height: 35rem;  
+        background-color: #00000062;
+        text-align: center;
+        border-radius: 1rem;
+        font-size: 4rem;
+        z-index: -1;
+        transition: ease;
+    }
+    .navbar li{
+        width: 100%;
+        margin-bottom: 2.3rem;
+    }
+    .hide{
+        display: block;
+    }
+    .home {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: space-around;
+        justify-content: center;
+    }
+    .home-img {
+        width: 70%;
+        height: 50%; 
+    }
+    .home-img .hm-img {
+        border: 5px solid #ffae00;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .home-txt {
+        padding:0 3rem 3rem 3rem;
+        width: 100%;
+        height: 50%;
+    }
+    .home-txt p {
+        letter-spacing: 1.3px;
+        font-size: 2rem;
+    }
+    .btn {
+        padding: 1rem 1rem;
+        font-size: 2rem;
+    }
+
+    .btn-1 {
+        padding: 1rem 1rem;
+        font-size: 2rem;
+    }
+
+    .media-icon {
+        margin-top: 3rem;
+    }
+    .s-icon{
+        font-size: 6rem;
+    }
+    .about {
+        justify-content: space-around;
+
+    }
+
+    .about-img {
+        width: 50%;
+        height: 80%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .about-txt {
+        width: 50%;
+        height: 100%;
+    }
+    .about-img .a-img {
+        width: 90%;
+        height: 100%;
+    }
+    .img-box {
+        background-color: rgba(255, 255, 255, 0.416);
+        height: 40rem;
+        width: 32rem;
+        border: .8rem solid #ffae00;
+        border-radius: 50%;
+    }
+
+    .about-txt h2 {
+        font-size: 5rem;
+    }
+
+    .about-txt h3 {
+        font-size: 2.6rem;
+    }
+    .about-txt p {
+        font-size: 1.8rem;
+    }
+    .edu {
+       display: block;
+    }
+
+    .edu h1 {
+        padding: 5rem;
+        text-align: center;
+        font-size: 5rem;
+        font-weight: 600;
+        color: #ffae00;
+    }
+
+    .edu-cont {
+       display: block;
+        width: 100%;
+    }
+
+    .edu-box {
+        margin: 2rem;
+        padding: 2rem;
+    }
+    .edu-icon {
+        font-size: 3rem;
+        font-weight: 900;
+        padding: 1rem 1rem 1rem 0;
+    }
+
+    .edu-box p {
+        font-size: 2rem;
+    }
+    .edu-box h4 span {
+        font-size: 3rem;
+    }
+    .edu-box h3 {
+        font-size: 2.6rem;
+    }
+    .icon-name{
+        font-size: 2rem;
+    }
+    input ,textarea{
+        font-size: 3rem;
+    }
+    .send-btn {
+        animation: textareascroll 2s ease 1;
+        font-size: 3rem;
+        background-color: #ffae00;
+        border: none;
+        border-radius: 0.6rem;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .top-btn{
+        visibility: visible;
+    }
+    .footer{
+        font-size: 2rem;
+    }
+    .li{
+        height: 40%;
+        display: block;
+    }
+    .li img {
+        border-radius: 3rem;
+        height: 50%;
+        width: 100%;
+    }
+    .li .pro-text{
+        width: 100%;
+        height: 50%;
+    }
+}

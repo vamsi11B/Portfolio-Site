@@ -1,0 +1,92 @@
+@keyframes showlogo {
+    from {
+        transform: translateX(-60%);
+    }
+
+    to {
+        transform: translatex(0);
+    }
+}
+@keyframes showlogo {
+    from {
+        transform: translateX(-60%);
+    }
+
+    to {
+        transform: translatex(0);
+    }
+}
+@keyframes shownav {
+    from {
+        transform: translateY(-200%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
+}
+@keyframes showcontactbtn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+@keyframes showimage {
+    from {
+        transform: translatex(100px)translateZ(-200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translatex(0)translateZ(0);
+        opacity: 1;
+    }
+}
+@keyframes showcontent {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes showabouttext {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes showaboutimg {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes textareascroll {
+    from {
+        transform: translateY(90px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}

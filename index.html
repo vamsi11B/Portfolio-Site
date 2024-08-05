@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <span>PORT</span>FOLIO
+        </a>
+        <ul class="navbar">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li class="hide"><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="contact-btn">Contact Me</a>
+
+        <i class="fa-solid fa-bars" id="bar-icon" onclick="shownav()"></i>
+    </header>
+    <section class="home" id="home">
+        <div class="home-txt">
+            <h3 class="h3-1">Hi</h3>
+            <h1 class="h1">I'm <span>Vamsi Bellamkonda</span>
+            </h1>
+            <h3 class="h3-1">A Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, explicabo nihil odit maxime nulla officia
+                facere vel porro tempora deserunt.</p>
+            <div class="home-btn">
+                <a href="https://docs.google.com/document/d/18SPOJv4l54WaiHJLw2Ruz1EruEcW8naH/edit?usp=drive_link&ouid=107192391163797500375&rtpof=true&sd=true"
+                    target="_blank" class="btn">Download CV</a>
+                 <a href="https://leetcode.com/u/gnaneswar12/" class="btn-1" target="_blank">Leetcode &#8599;</a>   
+            </div>
+            <div class="media-icon">
+                <i class="fa-brands fa-linkedin s-icon"></a></i>
+                <i class="fa-brands fa-square-github s-icon"></i>
+                <i class="fa-brands fa-square-twitter s-icon"></i>
+                <i class="fa-brands fa-square-instagram s-icon"></i>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="img.png" class="hm-img">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <div class="img-box">
+                <img src="img.png" class="a-img">
+            </div>
+        </div>
+        <div class="about-txt">
+            <h2>About Me</h2>
+            <h3>Frontend <span> Developer</span></h3>
+            <p>I'm a BTech student currently interning in frontend development, passionate about designing and creating innovative user interfaces. With a keen eye for detail and a solid foundation in HTML, CSS, and JavaScript, they are dedicated to enhancing user experiences through intuitive and visually appealing designs. Their internship experience has provided hands-on exposure to many new things, allowing them to apply their academic knowledge in real-world projects. Eager to stay ahead in the fast-evolving tech landscape, they constantly explore new design trends and technologies, striving to create seamless and engaging digital experiences for users.
+            </p>
+        </div>
+    </section>
+    <section class="edu" id="education">
+        <h1>Education</h1>
+        <div class="edu-cont">
+            <div class="edu-box">
+                <h4><i class="fa-solid fa-calendar-days edu-icon"></i><span>2022-present</span></h4>
+                <h3>B.tech-SRM University</h3>
+                <p>As a B.Tech student, college life is a mix of intense learning, collaborative projects, and unforgettable friendships, shaping our future careers.</p>
+            </div>
+            <div class="edu-box">
+                <h4><i class="fa-solid fa-calendar-days edu-icon"></i><span>2020-2022</span></h4>
+                <h3>Higher Secondary schooling</h3>
+                <p>Intermediate college provides a crucial transition, blending academic rigor with personal growth, preparing students for higher education and future careers.</p>
+            </div>
+            <div class="edu-box">
+                <h4><i class="fa-solid fa-calendar-days edu-icon"></i><span>2019-2020</span></h4>
+                <h3>Secondary school</h3>
+                <p>School provides a foundation of knowledge, nurturing teachers, and diverse extracurricular activities, fostering growth, friendships, and lifelong learning.</p>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skill-box">
+            <div class="item">
+                <i class="fa-solid fa-c icon" style="color: #ffffff;"></i>
+                <span class="icon-name">C</span>
+            </div>
+            <div class="item">
+                <i class="devicon-cplusplus-plain icon"></i>
+                <span class="icon-name">C++</span>
+            </div>
+            <div class="item">
+                <i class="devicon-html5-plain-wordmark icon"></i>
+                <span class="icon-name">HTML</span>
+            </div>
+            <div class="item">
+                <i class="devicon-css3-plain-wordmark icon"></i>
+                <span class="icon-name">CSS</span>
+            </div>
+            <div class="item">
+                <i class="devicon-javascript-plain icon"></i>
+                <span class="icon-name">Javascript</span>
+            </div>
+            <div class="item">
+                <i class="devicon-react-original-wordmark icon"></i>
+                <span class="icon-name">React Js</span>
+            </div>
+            <div class="item">
+                <i class="devicon-nodejs-plain-wordmark icon"></i>
+                <span class="icon-name">Node Js</span>
+            </div>
+            <div class="item">
+                <i class="devicon-mysql-plain-wordmark icon"></i>
+                <span class="icon-name">My SQl</span>
+            </div>
+            <div class="item">
+                <i class="devicon-express-original-wordmark icon"></i>
+                <span class="icon-name">Express Js</span>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <h1 class="heading-name">Projects</h1>  
+    <div class="pro-list">
+        <div class="li">
+            <img src="p2.png" height="200px" width="400px">
+            <div class="pro-text">
+                <h1 class="tit">Amazon-Clone</h1>
+                <p class="desc">Created  an Amazon clone project using HTML and CSS to replicate key features like a homepage layout, product listings, and detail pages. Focus on responsive design, navigation, and styling to mimic Amazon's e-commerce platform</p>
+                <div class="tech">
+                    <h2>TECHNOLOGIES: </h2>
+                    <p>Html,Css</p>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</section> 
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="inp">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="email" id="email" placeholder="Email Address">
+            <input type="text" id="number" placeholder="Mobile Number">
+            <input type="text" id="subject" placeholder="Email Subject">
+            <textarea id="comment" placeholder="Your message" rows="10" cols="50"></textarea>
+        </div>
+        <div>
+            <button class="send-btn">Send Message</button>
+        </div>
+
+
+    </section>
+    <div class="top-btn">
+        <i class="fa-solid fa-arrow-up t-btn" onclick="scrolltotop()"></i>
+    </div>
+    <footer class="footer">
+        <p>copyright 2024  &#169 satya .All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
